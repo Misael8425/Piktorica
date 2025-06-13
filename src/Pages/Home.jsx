@@ -26,9 +26,17 @@ const Home = () => {
         </div>
       </section>
 
-      <Servicios />
-      <NuestrosObjetivos />
-      <Contacto />
+      <section id="servicios">
+        <Servicios />
+      </section>
+
+      <section id="objetivo">
+        <NuestrosObjetivos />
+      </section>
+
+      <section id="contacto">
+        <Contacto />
+      </section>
 
       <footer className="bg-[#b8926a] text-white py-6 text-center mt-8">
         <p className="text-sm">
